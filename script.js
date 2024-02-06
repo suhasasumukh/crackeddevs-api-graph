@@ -5,7 +5,7 @@ function initApp() {
 }
 
 function fetchBounties() {
-   const apiKey = ''; // Add your API key here
+   const apiKey = ''; // Api Key shall go here, to get the API key go to https://api.crackeddevs.com
    const apiUrl = 'https://api.crackeddevs.com/api/get-jobs';
    const headers = {
       'api-key': apiKey,
